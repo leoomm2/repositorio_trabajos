@@ -1,7 +1,7 @@
-console.log("A");
+console.log("1.Comienza el programa");
 
 setTimeout(() => {
-    console.log("C");
+    console.log("3.Se ejecuta la tarea programada");
     }, 0);
 
-console.log("B");
+console.log("2. Termina el codigo principal");
