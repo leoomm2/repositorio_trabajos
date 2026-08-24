@@ -1,0 +1,12 @@
+FICHA DE VIDEOJUEGO
+=================
+Estudiante: Leandro
+Node.js: v24.19.0
+Plataforma del sistema: win32
+
+
+Título: Read Dead Redemption 2
+Estudio: Rockstar Games
+Año: 2018
+Plataformas: PlayStation 4, Xbox One, PC
+¿Es Multijugador?: Si
