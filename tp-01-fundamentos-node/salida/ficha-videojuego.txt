@@ -1,6 +1,6 @@
 FICHA DE VIDEOJUEGO
 =================
-Estudiante: Leandro
+Estudiante: Estudiante
 Node.js: v24.19.0
 Plataforma del sistema: win32
 
