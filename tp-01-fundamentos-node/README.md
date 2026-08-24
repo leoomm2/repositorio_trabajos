@@ -22,8 +22,29 @@ Estos archivos se empiezan a preparar en las constantes "carpetaSalida" y "rutaA
 La carpeta y el archivo se empiezan a crear en el momento que se ejecuta: 
 "fs.mkdirSync(carpetaSalida, { recursive: true });
 
-fs.writeFileSync(rutaArchivo, ficha, "utf8");" , donde primero se crea la carpeta y luego el archivo
+fs.writeFileSync(rutaArchivo, ficha, "utf8");" , donde primero se crea la carpeta y luego el archivo.
  
 
 
 ## Conceptos
+1. ¿Qué diferencia existe entre JavaScript, V8 y el runtime de Node.js?
+
+La diferencia que existe entre estos, es que cada uno cumple una tarea especifica a la hora de ejecutar programas, por ejemplo en JavaScript definimos las reglas , la sintaxis y la logica del progrma, el MotorV8 es el que ejecuta las instrucciones de JavaScript, y el runtina de Node.js es la capacidad o entorno para para construir programas fuera del navegador.
+
+
+2. ¿Por qué el callback de setTimeout(..., 0) se ejecuta después del código principal?
+
+Porque JavaScript es de un solo hilo y envía esa función a una cola de tareas mediante el Event Loop de JavaScript, obligándola a esperar a que termine el
+código principal y el hilo vuelva a estar disponible.
+
+
+3. ¿Cuál es la diferencia general entre I/O bloqueante y no bloqueante?
+
+Uno entrega el resultado directamente y detiene el hilo hasta que la operacion termina por completo en este caso es la operacion bloqueante , y la no bloqueante entrega el resultado mientra el programa puede seguir continuando.
+
+
+4. ¿Qué responsabilidades cumplen node:path y node:fs en index.js ?
+
+node:path se encarga de armar la dirrecion exacta de los archivos y node:fs su funcion es abrir el archivo y leer lo que hay adentro para asi realizar tareas determinadas.
+
+
